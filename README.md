@@ -34,12 +34,14 @@ To scan the local network for open TCP ports using Nmap and analyze potential se
 
 
 # 🖼️ Screenshots
-All screenshots are available in the 'Screenshot for Windows' and 'Screenshot for Linux' folder:
+All screenshots are available in the 'Screenshots' folder:
 -Windows and Linux terminal scans
 -Nmap installation confirmation
 -IP range detection
 
 # 📁Files Included
+- 'scan_network_windows' - nmap scan for windows
+- 'Screenshots' - Screenshots of the output of nmap scan
   
 
 # ✅ Conclusion
