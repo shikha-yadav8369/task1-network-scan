@@ -17,6 +17,8 @@ To scan the local network for open TCP ports using Nmap and analyze potential se
   6 Researched and analyzed open ports for potential vulnerabilities.
 
 # 📊 Scan Results Summary
+  Windows:
+  
  | Port | State | Service            | Description                                     |
  | ---- | ----- | ------------------ | ----------------------------------------------- |
  | 135  | open  | **msrpc**          | Microsoft RPC – used for Windows services       |
@@ -25,11 +27,20 @@ To scan the local network for open TCP ports using Nmap and analyze potential se
  | 902  | open  | **iss-realsecure** | Often VMware related (for remote management)    |
  | 912  | open  | **apex-mesh**      | May relate to VMware or other software agents   |
 
+ Linux:
+| Port       | State | Service | Description                                     |
+| ---------- | ----- | ------- | ----------------------------------------------- |
+| **53/tcp** | open  | domain  | DNS server – typically used for name resolution |
+
+
 # 🖼️ Screenshots
 All screenshots are available in the 'Screenshot for Windows' and 'Screenshot for Linux' folder:
 -Windows and Linux terminal scans
 -Nmap installation confirmation
 -IP range detection
+
+# 📁Files Included
+  
 
 # ✅ Conclusion
 This task helped identify live hosts and exposed ports within the local network. Ports like 445, 135, and 139 pose potential security risks and should be monitored or blocked if unnecessary.
